@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+    --first-color: hsl(82, 60%, 28%);
+    --title-color: hsl(0, 0%, 15%);
+    --body-color: hsl(0, 0%, 95%);
+    --container-color: hsl(0, 0%, 100%);
+    --body-font: "Poppins", sans-serif;
+    --h2-font-size: 1.25rem;
+}
+
+@media screen and (min-width: 1120px) {
+    :root {
+        --h2-font-size: 1.5rem;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--body-color);
+}
+
+.container-dc {
+    display: grid;
+    place-items: center;
+    /* padding: 25px; */
+}
+.card__container-dc {
+    display: grid;
+    row-gap: 3.5rem;
+  }
+.card__article-dc {
+    position: relative;
+    overflow: hidden;
+}
+
+.card__img-dc {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.3rem;
+    transition: box-shadow 0.3s ease;
+    background-color : black; 
+    width : 250px;
+    height : 300px;   
+}
+
+
+.card__data-dc {
+    width: 220px;
+    background-color: #38484e;
+    padding: 0.5rem 0.7rem;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+    border-radius: 4rem;
+    position: absolute;
+    bottom: -8rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity: 0;
+    transition: opacity 1s 1s;
+    justify-content: center;
+}
+
+.card__article-dc:hover .card__data-dc {
+    animation: show-data 0.8s forwards;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.card__article-dc:hover {
+    animation: remove-overflow 1.2s forwards;
+}
+
+.card__article-dc:not(:hover) .card__data-dc {
+    animation: remove-data 1s forwards;
+}
+
+@keyframes show-data {
+    50% {
+        transform: translateY(-10rem);
+    }
+    100% {
+        transform: translateY(-7rem);
+    }
+}
+
+@keyframes remove-overflow {
+    to {
+        overflow: initial;
+    }
+}
+
+@keyframes remove-data {
+    0% {
+        transform: translateY(-7rem);
+    }
+    50% {
+        transform: translateY(-10rem);
+    }
+    100% {
+        transform: translateY(0.5rem);
+    }
+}
+.card-dc {
+    display: flex;
+    height: 55px;
+    width: 195px;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+
+.card-dc svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    padding: 0.25rem;
+    cursor: pointer;
+    background-color : black;    
+
+}
+
+.card-dc .social-link1-dc,
+.card-dc .social-link2-dc,
+.card-dc .social-link3-dc,
+.card-dc .social-link4-dc,
+.card-dc .social-link5-dc {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+
+.card-dc svg {
+    transform: scale(1);
+}
+
+.card-dc .social-link1-dc:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    animation: bounce_613 0.4s linear;
+}
+
+.card-dc .social-link2-dc:hover {
+    background-color: #242c34;
+    animation: bounce_613 0.4s linear;
+}
+
+.card-dc .social-link3-dc:hover {
+    background-color: #5865f2;
+    animation: bounce_613 0.4s linear;
+}
+
+.card-dc .social-link4-dc:hover {
+    background-color: #0a66c2;
+    animation: bounce_613 0.4s linear;
+}
+
+.card-dc .social-link5-dc:hover {
+    background-color: #ff8000;
+    animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.4);
+    }
+    60% {
+        transform: scale(0.8);
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#image-container-dc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 50px; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+.card__name-dc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1px;
+    margin-top : 245px;
+    font-family: "Belleza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 1;
+    text-shadow: 1px 1px 1px #F5F5F5, 0 0 2px #F5F5F5;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+    animation: fadeIn 4s forwards;
+    background-color : black;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.card__article-dc:hover .card__name-dc {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.card__article-dc:hover .card__name-dc {
+    animation: none;
+}

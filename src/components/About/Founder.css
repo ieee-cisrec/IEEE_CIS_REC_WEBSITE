@@ -1,0 +1,126 @@
+.founder-container {
+  margin-top: 80px;
+  overflow: hidden;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: transparent; /* No background color */
+  position: relative; /* Set relative positioning for buttons */
+  padding: 20px; /* Add padding for smaller screens */
+}
+
+.founder-title {
+  font-size: 4rem;
+  text-align: center;
+  margin: 24px 0;
+  letter-spacing: 0.05em;
+  font-family: 'Montserrat', sans-serif; /* Heading font */
+  color: #ffffff; /* Title color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+.founder-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; /* Space between cards */
+}
+
+.founder-card {
+  border: 2px solid #C71585; /* Thin blue border */
+  border-radius: 10px; /* Rounded corners */
+  width: 300px; /* Fixed width for cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effect */
+  position: relative; /* Relative positioning for pseudo-elements */
+  overflow: hidden; /* Rounded corners for the image */
+  background-color: transparent; /* No background color */
+}
+
+.founder-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+  .founder-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Gap between image and border */
+    border-radius: 20px; /* Rounded corners for the image */
+    transition: transform 0.3s ease; /* Image transition */
+  }
+
+.founder-card:hover .founder-image {
+  transform: scale(1.03); /* Zoom effect on hover */
+}
+
+.founder-name {
+  font-size: 2.2rem; /* Slightly smaller for a cleaner look */
+  margin: 10px 0; /* Refined margin for balanced spacing */
+  color: #ffffff; /* Default fallback color */
+  font-family: 'Montserrat', sans-serif; /* Modern font */
+  font-weight: 600; /* Semi-bold for a sleeker appearance */
+  text-align: center;
+  background: linear-gradient(90deg, #DA70D6, #C71585); /* Vibrant gradient */
+  -webkit-background-clip: text; /* Clip background to text */
+  -webkit-text-fill-color: transparent; /* Makes the text transparent to show gradient */
+  letter-spacing: 0.08em; /* Slight letter spacing for style */
+  transition: transform 0.3s ease, letter-spacing 0.3s ease; /* Smooth animation */
+}
+
+/* Hover effect for a cool interaction */
+.founder-name:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  letter-spacing: 0.12em; /* Increase spacing on hover */
+}
+
+
+
+
+/* Arrow buttons for navigation */
+.nav-button {
+  position: absolute;
+  top: 50%;
+  background-color: transparent; /* Transparent background */
+  border: none;
+  cursor: pointer;
+  font-size: 2rem; /* Default button size */
+  color: white; /* Arrow color */
+  transform: translateY(-50%);
+  z-index: 10; /* Ensure arrows are above other elements */
+  padding: 10px; /* Add padding for better touch area on mobile */
+}
+
+/* Positioning of navigation buttons */
+.left {
+  left: 5%; /* Use percentage for responsive positioning */
+}
+
+.right {
+  right: 5%; /* Use percentage for responsive positioning */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .founder-title {
+    font-size: 2.5rem; /* Reduce title size */
+  }
+
+  .founder-name {
+    font-size: 2rem; /* Reduce founder name size */
+  }
+
+  .founder-description {
+    font-size: 1rem; /* Reduce description size */
+  }
+
+  .nav-button {
+    font-size: 1.5rem; /* Reduce button size for smaller screens */
+    padding: 8px; /* Reduce padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-button {
+    font-size: 1.2rem; /* Further reduce button size for mobile */
+    padding: 6px; /* Adjust padding */
+  }
+}

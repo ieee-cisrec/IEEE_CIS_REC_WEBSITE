@@ -82,7 +82,7 @@ function Projects() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>What is the Outcome of Envision?</Accordion.Header>
                 <Accordion.Body>
-                 You will have hands on experience and Basic Knowledge about Computer Vision.
+                 You will have hands on experience and basic knowledge about Computer Vision.
                 </Accordion.Body>
               </Accordion.Item>
               

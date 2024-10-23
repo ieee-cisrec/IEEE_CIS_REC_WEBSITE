@@ -152,10 +152,7 @@ const Home = () => {
                   mission:{" "}
                 </span>
               </b>
-              <br></br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Harum consequuntur accusamus quaerat corrupti quam consequatur
-              modi saepe vitae, obcaecati veritatis dolorum officia itaque
-              inventore illum quae sint minus totam magnam!
+              <br></br>The mission of the IEEE CIS Club is to empower students to push the boundaries of computational intelligence through innovation and collaboration. We focus on providing opportunities for hands-on learning in areas like Machine Learning, Data Science, and IoT, while fostering leadership and professional growth. By connecting students with industry and research leaders, we aim to drive real-world impact and prepare members for the future of AI-driven industries.
             </p>
           </section>
         </main>

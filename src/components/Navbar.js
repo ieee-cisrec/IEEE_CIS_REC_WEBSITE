@@ -139,7 +139,7 @@ function NavBar() {
                 </Button>
                 <Button
                   variant="primary"
-                  href="https://github.com/soumyajit4419/Portfolio"
+                  href="https://chat.whatsapp.com/EqxDV76hcnD7vcAgMKbyuK"
                   target="_blank"
                 >
                   Join Membership

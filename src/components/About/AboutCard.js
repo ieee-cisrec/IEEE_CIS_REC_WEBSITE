@@ -137,7 +137,7 @@ const mediaQueryStyles = `
     }
     .textBlockStyle, .imageStyle {
       width: 100%; /* Make image and text full-width */
-      text-align: center; /* Center the text for smaller screens */
+      text-align: left; /* Center the text for smaller screens */
     }
     .textBlockStyle {
       margin-top: 16px; /* Add spacing between image and text */
@@ -150,5 +150,7 @@ const styleSheet = document.createElement("style");
 styleSheet.type = "text/css";
 styleSheet.innerText = mediaQueryStyles;
 document.head.appendChild(styleSheet);
+
+// Modified Styles for Mobile
 
 export default AboutCard;

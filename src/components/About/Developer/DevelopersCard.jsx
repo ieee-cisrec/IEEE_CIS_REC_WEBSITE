@@ -10,6 +10,14 @@ function DeveopersCard() {
 
     const memberDetails = {
         "members": [
+         {
+          "name": "<Sivabalan/>",
+          "imageLink": siva,
+          "githubLink": "https://github.com/Sivabalan10",
+          "instagramLink": "https://www.instagram.com/s_p_a_r_k_y_siva",
+          "linkedinLink": "https://www.linkedin.com/in/sivabalan10/",
+          "position": "Machine Learning "
+        },
         {
           "name": "<Rishi/>",
           "imageLink": rishi,
@@ -26,14 +34,7 @@ function DeveopersCard() {
           "linkedinLink": "https://www.linkedin.com/in/harini-sundaram-04a615334/",
           "position": "Machine Learning "
         },
-        {
-          "name": "<Sivabalan/>",
-          "imageLink": siva,
-          "githubLink": "https://github.com/Sivabalan10",
-          "instagramLink": "https://www.instagram.com/s_p_a_r_k_y_siva",
-          "linkedinLink": "https://www.linkedin.com/in/sivabalan10/",
-          "position": "Machine Learning "
-        },{
+       {
             "name": "<Saranz/>",
             "imageLink": saran,
             "githubLink": "https://github.com/imsarann",

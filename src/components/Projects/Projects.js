@@ -143,8 +143,8 @@ function Projects() {
                   When will Innov8 in 100 be expected?
                 </Accordion.Header>
                 <Accordion.Body>
-                  IThe signature event of IEEE CIS "Innov8 in 100" is expected
-                  to be announced on January 2025.
+                  The signature event of IEEE CIS "Innov8 in 100" is expected to
+                  be announced on January 2025.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

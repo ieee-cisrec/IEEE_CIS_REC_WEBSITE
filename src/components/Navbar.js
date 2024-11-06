@@ -137,7 +137,7 @@ function NavBar() {
                   href="https://chat.whatsapp.com/EqxDV76hcnD7vcAgMKbyuK"
                   target="_blank"
                 >
-                  Join Membership
+                  Join Community
                 </Button>
               </Modal.Footer>
             </Modal>

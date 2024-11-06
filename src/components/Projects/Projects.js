@@ -5,11 +5,13 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import event1 from "./Assets/event1.jpeg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import Accordion from "react-bootstrap/Accordion";
 import "./Project.css";
+import event1 from "./Assets/event1.jpeg";
+import event2 from "./Assets/event2.png";
+import event3 from "./Assets/event3.jpg";
 function Projects() {
   const fadeInElements = useRef([]);
 
@@ -50,9 +52,14 @@ function Projects() {
         </p>
         <br></br>
         <br></br>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           Upcoming <strong className="purple">Events</strong>
+        </h1> */}
+
+        <h1 className="project-heading">
+          Milestone <strong className="purple">Events</strong>
         </h1>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col
             md={4}
@@ -63,29 +70,83 @@ function Projects() {
               imgPath={event1}
               isBlog={false}
               title="Envision"
-              description="Join IEEE CIS REC's EnVision Chapter 0: CV Workshop on Oct 23, 2024 (3-5 PM) for a hands-on computer vision project!
+              description="IEEE CIS REC's EnVision Chapter 0: CV Workshop on Oct 23, 2024 (3-5 PM) for a hands-on computer vision project!
                   Learn Roboflow, YOLO, dataset management, pre-processing, and augmentation.
                   Register now (limited spots) and receive an e-certificate."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              swalTitle="Envision Event Details"
+              swalText="This event offers hands-on experience with computer vision. Learn Roboflow, YOLO, and data augmentation. Limited spots available!"
+              status="yes"
             />
           </Col>
 
+          <Col
+            md={4}
+            className="project-card fade-in"
+            ref={(el) => (fadeInElements.current[1] = el)}
+          >
+            <ProjectCard
+              imgPath={event3}
+              isBlog={false}
+              title="Hack Hive"
+              description="IEEE CIS’s Hack Hive mini hackathon, 
+              held on September 3rd during the IEEE Breadths Symposium! 
+              This event gathered innovators and developers to tackle real-world challenges in artificial intelligence.
+              Participants showcased their technical skills while fostering a spirit of learning and problem-solving."
+              swalTitle="Hack Hive Event Details"
+              swalText="The Hack Hive mini hackathon, part of the IEEE Breadths Symposium, gathered AI enthusiasts
+               to solve real-world challenges and innovate together. 
+              It offered participants a platform to collaborate, create AI solutions, and demonstrate technical expertise."
+            />
+          </Col>
+
+          <Col
+            md={4}
+            className="project-card fade-in"
+            ref={(el) => (fadeInElements.current[2] = el)}
+          >
+            <ProjectCard
+              imgPath={event2}
+              isBlog={false}
+              title="IEEE CIS SYSTEM 101"
+              description="IEEE CIS Rajalakshmi Engineering College's awareness program with 
+              Dr. Revatthy Krishnamurthy, designed to guide participants on publishing IEEE papers across various domains. 
+              Gain valuable insights into the publication process and enhance your understanding of IEEE standards."
+              swalTitle="IEEE CIS SYSTEM 101 Event Details"
+              swalText="IEEE CIS chapter at Rajalakshmi Engineering College 
+              is hosting an Awareness Program led by Dr. Revatthy Krishnamurthy. 
+              This insightful session will guide participants through the process
+               of publishing IEEE papers in various domains, 
+              offering valuable knowledge on IEEE standards and best practices for successful publication."
+            />
+          </Col>
           <div
             className="fade-in-element q_a fade-in"
-            ref={(el) => (fadeInElements.current[1] = el)}
+            ref={(el) => (fadeInElements.current[3] = el)}
           >
             <h1 className="project-heading">
               F <strong className="purple">A </strong>Q
             </h1>
             <Accordion defaultActiveKey="4" className="bg-transparent">
               <Accordion.Item eventKey="0">
-                <Accordion.Header>What is the Outcome of Envision?</Accordion.Header>
+                <Accordion.Header>
+                  What is the Outcome of Envision?
+                </Accordion.Header>
                 <Accordion.Body>
-                 You will have hands on experience and basic knowledge about Computer Vision.
+                  You will have hands on experience and basic knowledge about
+                  Computer Vision.
                 </Accordion.Body>
               </Accordion.Item>
-              
+            </Accordion>
+            <Accordion defaultActiveKey="4" className="bg-transparent">
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>
+                  When will Innov8 in 100 be expected?
+                </Accordion.Header>
+                <Accordion.Body>
+                  IThe signature event of IEEE CIS "Innov8 in 100" is expected
+                  to be announced on January 2025.
+                </Accordion.Body>
+              </Accordion.Item>
             </Accordion>
           </div>
         </Row>

@@ -8,8 +8,8 @@ import Swal from "sweetalert2";
 function ProjectCards(props) {
   const handleButtonClick = () => {
     Swal.fire({
-      title: "Details",
-      text: "Here are the details about the Event.",
+      title: props.swalTitle || "Details",
+      text: props.swalText || "Here are the details about the Event.",
       confirmButtonText: "Okay",
       backdrop: true, // Optional: Enable backdrop to prevent interaction outside the popup
     });
@@ -22,31 +22,39 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button
-          variant="primary"
-          // href={props.ghLink}
-          // target="_blank"
-          className="custom-grey-button" // Add green background and border color
-        >
-          {/* <FaUserPlus /> &nbsp; */}
-          {props.isBlog ? "Blog" : "Closed"}
-        </Button>
-
-        {"\n"}
-        {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
+        {props.open && (
           <Button
             variant="primary"
-            style={{ marginLeft: "10px", backgroundColor: "green" }}
-            onClick={handleButtonClick} // Attach click handler
+            href={props.reglink}
+            target="_blank"
+            className="custom-green-button" // Add green background and border color
           >
-            <CgWebsite /> &nbsp;
-            {"Details"}
+            {/* <FaUserPlus /> &nbsp; */}
+            Register
           </Button>
         )}
+        {props.close && (
+          <Button
+            variant="primary"
+            // href={props.reglink}
+            // target="_blank"
+            className="custom-grey-button" // Add green background and border color
+          >
+            {/* <FaUserPlus /> &nbsp; */}
+            Closed
+          </Button>
+        )}
+        {"\n"}
+        {"\n"}
+        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        <Button
+          variant="primary"
+          style={{ marginLeft: "10px", backgroundColor: "green" }}
+          onClick={handleButtonClick} // Attach click handler
+        >
+          <CgWebsite /> &nbsp;
+          {"Details"}
+        </Button>
       </Card.Body>
     </Card>
   );

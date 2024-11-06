@@ -29,7 +29,7 @@ import saravanakumarImage from "../../Assets/ourcrew/img/28saravana.jpg";
 import guruprasathImage from "../../Assets/ourcrew/img/29guruprasath.jpg";
 import saranImage from "../../Assets/ourcrew/img/30saran.jpg";
 import vijayImage from "../../Assets/ourcrew/img/31vijaykumar.jpg";
-import priadharshniImage from "../../Assets/ourcrew/img/32priadharshini.jpg";
+import priadharshniImage from "../../Assets/ourcrew/img/32priyadharshini.jpg";
 import hariniImage from "../../Assets/ourcrew/img/33harini.jpg";
 import rishiImage from "../../Assets/ourcrew/img/34rishi.jpg";
 import sivabalanImage from "../../Assets/ourcrew/img/35sivabalan.jpg";

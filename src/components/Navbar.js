@@ -91,7 +91,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/events"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -104,7 +104,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/our_crew"
                 onClick={() => updateExpanded(false)}
               >
                 <MdGroup style={{ marginBottom: "2px" }} /> Our Crew

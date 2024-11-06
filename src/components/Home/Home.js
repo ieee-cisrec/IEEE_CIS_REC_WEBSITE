@@ -61,18 +61,18 @@ const Home = () => {
               About <span style={{ color: "var(--imp-text-color)" }}>us</span>
             </h1>
             <p>
-              The IEEE Computational Intelligence Society (CIS)  is a
-              dynamic community of students passionate about artificial
-              intelligence, machine learning, and intelligent systems. We
-              organize workshops, seminars, and hands-on projects, fostering
-              innovation and technical excellence. Our club encourages research,
+              The IEEE Computational Intelligence Society (CIS) is a dynamic
+              community of students passionate about artificial intelligence,
+              machine learning, and intelligent systems. We organize workshops,
+              seminars, and hands-on projects, fostering innovation and
+              technical excellence. Our Society encourages research,
               collaboration, and participation in global competitions, preparing
               students for leadership in AI-driven industries. Through
               networking and mentorship, we connect members with industry
               experts and academic leaders, creating opportunities for career
               growth and skill development. Whether you’re a beginner or an
-              enthusiast, the CIS Club is your gateway to exploring the exciting
-              world of computational intelligence.
+              enthusiast, the CIS Society is your gateway to exploring the
+              exciting world of computational intelligence.
             </p>
           </div>
         </section>
@@ -107,14 +107,12 @@ const Home = () => {
                 <div className="card-body">
                   <div className="messages-container">
                     <div className="message-box left">
-                      <p>
-                        Passionate about tech? 
-                      </p>
+                      <p>Passionate about tech?</p>
                     </div>
                     <div className="message-box left">
-                    <p>
-                      Join IEEE CIS and connect with
-                      fellow innovators driving change.
+                      <p>
+                        Join IEEE CIS and connect with fellow innovators driving
+                        change.
                       </p>
                     </div>
                   </div>
@@ -157,7 +155,14 @@ const Home = () => {
                   mission:{" "}
                 </span>
               </b>
-              <br></br>The mission of the IEEE CIS  is to empower students to push the boundaries of computational intelligence through innovation and collaboration. We focus on providing opportunities for hands-on learning in areas like Machine Learning, Data Science, and IoT, while fostering leadership and professional growth. By connecting students with industry and research leaders, we aim to drive real-world impact and prepare members for the future of AI-driven industries.
+              <br></br>The mission of the IEEE CIS is to empower students to
+              push the boundaries of computational intelligence through
+              innovation and collaboration. We focus on providing opportunities
+              for hands-on learning in areas like Machine Learning, Data
+              Science, and IoT, while fostering leadership and professional
+              growth. By connecting students with industry and research leaders,
+              we aim to drive real-world impact and prepare members for the
+              future of AI-driven industries.
             </p>
           </section>
         </main>

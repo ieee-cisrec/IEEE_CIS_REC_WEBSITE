@@ -10,10 +10,6 @@ function ProjectCards(props) {
     Swal.fire({
       title: "Details",
       text: "Here are the details about the Event.",
-      imageUrl: "https://via.placeholder.com/150", // Replace with your image URL
-      imageWidth: 150,
-      imageHeight: 150,
-      imageAlt: "Custom image",
       confirmButtonText: "Okay",
       backdrop: true, // Optional: Enable backdrop to prevent interaction outside the popup
     });

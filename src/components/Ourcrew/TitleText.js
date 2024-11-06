@@ -1,9 +1,9 @@
-import "../../Assets/ourcrew/css/TitleText.css"
-function TitleText({text}) {
+import "../../Assets/ourcrew/css/TitleText.css";
+function TitleText({ text }) {
   return (
-    <div className='textContainer'>
-      <span className='text1'> {text}</span>
+    <div className="textContainer-tt">
+      <span className="text1-tt"> {text}</span>
     </div>
-  )
+  );
 }
-export default TitleText
+export default TitleText;

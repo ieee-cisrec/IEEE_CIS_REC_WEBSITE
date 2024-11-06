@@ -72,6 +72,7 @@ const Founder = () => {
           textAlign: 'center',
           margin: '24px 0',
           letterSpacing: '0.05em',
+          color : 'white',
         }}
       >
         <span style={head}>Meet our </span>

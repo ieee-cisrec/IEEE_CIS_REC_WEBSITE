@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -52,7 +52,7 @@ body {
 
 
 .card__data-ic {
-    width: 220px;
+    width: 215px;
     background-color: #38484e;
     padding: 0.5rem 0.7rem;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
@@ -64,7 +64,6 @@ body {
     margin-inline: auto;
     opacity: 0;
     transition: opacity 1s 1s;
-    justify-content: center;
 }
 
 .card__article-ic:hover .card__data-ic {
@@ -109,18 +108,18 @@ body {
 }
 .card-ic {
     display: flex;
-    height: 55px;
-    width: 195px;
-    justify-content: space-between;
-    padding: 8px;
-    
+    height: 50px;
+    width: 190px;
+    justify-content: center;
+    padding: 7px;
+    gap : 8px;
 }
 
 .card-ic svg {
     position: absolute;
     display: flex;
     width: 60%;
-    height: 100%;
+    height: 90%;
     font-size: 24px;
     font-weight: 700;
     opacity: 1;
@@ -128,6 +127,7 @@ body {
     z-index: 2;
     padding: 0.25rem;
     cursor: pointer;
+      
 }
 
 .card-ic .social-link1-ic,
@@ -254,7 +254,7 @@ body {
     transition: opacity 0.5s ease-in-out;
     animation: fadeIn 4s forwards;
     background-color : black;
-    border-radius: 2px;
+    round-radius: 2px
 }
 
 @keyframes fadeIn {
@@ -272,4 +272,30 @@ body {
 .card__article-ic:hover .card__name2-ic {
     animation: none;
 }
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius : 10px;
+    font-family: "Belleza", sans-serif;
+    font-size: 1.3rem;
 
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup-content button {
+    margin-top: 10px;
+    background-color :red;
+    border-radius : 10px;
+    color : white;
+    padding : 4px 4px 4px;
+
+  }

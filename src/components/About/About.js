@@ -31,9 +31,8 @@ function About() {
   }, []);
 
   return (
-    <Container fluid className="about-section">
+    <div fluid className="abb">
       <Particle />
-      <Container>
         {/* AboutCard Section */}
         <div
           className="about-card fade-in"
@@ -52,8 +51,7 @@ function About() {
 
         {/* Founder Section (No Column for Layout Preservation) */}
         <Founder />
-      </Container>
-    </Container>
+    </div>
   );
 }
 

@@ -123,15 +123,10 @@ function NavBar() {
             {/* Bootstrap Modal */}
             <Modal show={showModal} onHide={handleClose}>
               <Modal.Header closeButton>
-                <Modal.Title>Member Ship Details</Modal.Title>
+                <Modal.Title>Member Details</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <img
-                  src="https://via.placeholder.com/150"
-                  alt="Project"
-                  style={{ width: "100%" }}
-                />
-                <p>"Join in IEEE CIS Membership to grow!</p>
+                <p>Join in IEEE CIS Community to grow!</p>
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>

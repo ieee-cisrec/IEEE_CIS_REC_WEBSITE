@@ -1,6 +1,5 @@
 import React from "react";
 import myImage from "./assets/grpimg1.JPG";
-import anotherImage from "./assets/grpimg2.JPG";
 
 const AboutCard = () => {
   return (
@@ -10,38 +9,16 @@ const AboutCard = () => {
         <strong style={{ color: subHeadingStyle.color }}>CIS </strong>
         <strong>REC</strong>
       </h1>
-      <p style={descriptionStyle}>
-        Computational Intelligent Society -{" "}
-        <span style={redi}>
-          " Redefining <span style={ai}>AI</span>esthetics "
-        </span>
-      </p>
 
       <div style={contentWrapperStyle}>
         <img src={myImage} alt="Overview" style={imageStyle} />
-        <div style={textBlockStyle}>
-          <p style={textDescriptionStyle}>
-            The IEEE Computational Intelligence Society (CIS) is a
-            student-driven initiative founded by the students of Artificial
-            Intelligence and Machine Learning. Our primary goal is to create a
-            dynamic platform where students can Explore, Initiate and
-            Collaborate while ensuring quality learning with peers.
-          </p>
-        </div>
       </div>
-
-      <div style={contentWrapperStyle}>
-        <div style={textBlockStyle}>
-          <p style={textDescriptionStyle}>
-            IEEE CIS, a community that encourages knowledge exchange, innovation
-            and growth in the ever-evolving fields of AI and computational
-            intelligence. By being part of this society, students have the
-            opportunity to elevate not only their technical expertise but also
-            develop the essential soft skills needed for career advancement.
-          </p>
-        </div>
-        <img src={anotherImage} alt="Another Visual" style={imageStyle} />
-      </div>
+      <p style={descriptionStyle}>
+        Computational Intelligent Society<br></br>
+        <span style={redi}>
+          &emsp;&emsp;" Redefining <span style={ai}>AI</span>esthetics "
+        </span>
+      </p>
     </div>
   );
 };
@@ -63,6 +40,7 @@ const headingStyle = {
   textAlign: "center",
   fontFamily: "TT Neoris, sans-serif", // Apply the TT Neoris font
   fontWeight: "bold",
+  color: "white",
 };
 
 const ai = {
@@ -95,7 +73,7 @@ const textBlockStyle = {
 };
 
 const imageStyle = {
-  width: "45%",
+  width: "80%",
   margin: "8px",
   borderRadius: "8px",
   border: "1px solid #DA70D6",

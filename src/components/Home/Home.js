@@ -34,10 +34,10 @@ const Home = () => {
         <br></br>
         <br></br>
         <h1>
-          <span class="word">
-            IEEE<span class="superscript">C S</span>{" "}
+          <span className="word">
+            IEEE<span className="superscript">C S</span>{" "}
           </span>
-          <span class="word">REC</span>
+          <span className="word">REC</span>
         </h1>
         {/* <h1 className="h1">
           Empowering Innovation, Shaping Intelligent Futures
@@ -61,7 +61,7 @@ const Home = () => {
               About <span style={{ color: "var(--imp-text-color)" }}>us</span>
             </h1>
             <p>
-              The IEEE Computational Intelligence Society (CIS) Club is a
+              The IEEE Computational Intelligence Society (CIS)  is a
               dynamic community of students passionate about artificial
               intelligence, machine learning, and intelligent systems. We
               organize workshops, seminars, and hands-on projects, fostering
@@ -108,17 +108,22 @@ const Home = () => {
                   <div className="messages-container">
                     <div className="message-box left">
                       <p>
-                        Passionate about tech? Join IEEE CIS and connect with
-                        fellow innovators driving change.
+                        Passionate about tech? 
+                      </p>
+                    </div>
+                    <div className="message-box left">
+                    <p>
+                      Join IEEE CIS and connect with
+                      fellow innovators driving change.
                       </p>
                     </div>
                   </div>
                   <div className="message-input">
                     <form>
-                      <textarea
+                      {/* <textarea
                         placeholder="Type your message here"
                         className="message-send"
-                      ></textarea>
+                      ></textarea> */}
                       <button type="submit" className="button-send">
                         <a
                           href="https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMCIS011"
@@ -152,7 +157,7 @@ const Home = () => {
                   mission:{" "}
                 </span>
               </b>
-              <br></br>The mission of the IEEE CIS Club is to empower students to push the boundaries of computational intelligence through innovation and collaboration. We focus on providing opportunities for hands-on learning in areas like Machine Learning, Data Science, and IoT, while fostering leadership and professional growth. By connecting students with industry and research leaders, we aim to drive real-world impact and prepare members for the future of AI-driven industries.
+              <br></br>The mission of the IEEE CIS  is to empower students to push the boundaries of computational intelligence through innovation and collaboration. We focus on providing opportunities for hands-on learning in areas like Machine Learning, Data Science, and IoT, while fostering leadership and professional growth. By connecting students with industry and research leaders, we aim to drive real-world impact and prepare members for the future of AI-driven industries.
             </p>
           </section>
         </main>

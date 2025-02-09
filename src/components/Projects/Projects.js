@@ -70,7 +70,7 @@ function Projects() {
                   Learn the basics of Cloud Computing, Real world application with AWS, Interactive quiz and Discover how it can supercharge your career!.
                   Register now (limited spots) and receive an e-certificate. Venue: Purple Hall"
               swalTitle="Workshop Details"
-              swalText="This event offers basics of Cloud Computing, Real world application with AWS and Interactive quiz. Limited spots available!"
+              swalText="<b>Event: </b>Cloud Computing Workshop<br> <b>Date: </b> Feb 12, 2025 <br> <b>Venue: </b>Purple Hall <br>"
               status="yes"
               reglink = "https://docs.google.com/forms/d/e/1FAIpQLScnxZ92G7fzX7Z40p1Set8dOGaTUpQKIf8cRg9dt49v4wy2GA/viewform"
               open = "true"

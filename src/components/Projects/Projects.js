@@ -12,6 +12,8 @@ import "./Project.css";
 import event1 from "./Assets/event1.jpeg";
 import event2 from "./Assets/event2.png";
 import event3 from "./Assets/event3.jpg";
+import event4 from "./Assets/cloudspace.jpg";
+
 function Projects() {
   const fadeInElements = useRef([]);
 
@@ -63,14 +65,14 @@ function Projects() {
             ref={(el) => (fadeInElements.current[0] = el)}
           >
             <ProjectCard
-              imgPath={event1}
+              imgPath={event4}
               isBlog={false}
-              title="Cloud Computing Workshop"
-              description="IEEE CIS REC's Cloud Computing Workshop: Workshop on Feb 12, 2025 (3-5 PM) for a hands-on Cloud Computing Workshop!
+              title="CLOUDSCAPE"
+              description="IEEE CIS REC's CloudScape: Workshop on Feb 12, 2025 (3-5 PM) for a hands-on Cloud Computing Workshop!
                   Learn the basics of Cloud Computing, Real world application with AWS, Interactive quiz and Discover how it can supercharge your career!.
                   Register now (limited spots) and receive an e-certificate. Venue: Purple Hall"
               swalTitle="Workshop Details"
-              swalText="<b>Event: </b>Cloud Computing Workshop<br> <b>Date: </b> Feb 12, 2025 <br> <b>Venue: </b>Purple Hall <br>"
+              swalText="<b>Event: </b>CloudScape<br> <b>Date: </b> Feb 12, 2025 <br> <b>Venue: </b>Purple Hall <br>"
               status="yes"
               reglink = "https://docs.google.com/forms/d/e/1FAIpQLScnxZ92G7fzX7Z40p1Set8dOGaTUpQKIf8cRg9dt49v4wy2GA/viewform"
               open = "true"

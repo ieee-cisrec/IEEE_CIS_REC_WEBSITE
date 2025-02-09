@@ -77,8 +77,7 @@ function Projects() {
             />
           </Col>
          </Row>
-    <br>
-
+    <br></br>
             
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col

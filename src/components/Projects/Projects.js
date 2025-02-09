@@ -83,7 +83,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[0] = el)}
+            ref={(el) => (fadeInElements.current[1] = el)}
           >
             <ProjectCard
               imgPath={event1}
@@ -101,7 +101,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[1] = el)}
+            ref={(el) => (fadeInElements.current[2] = el)}
           >
             <ProjectCard
               imgPath={event3}
@@ -121,7 +121,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[2] = el)}
+            ref={(el) => (fadeInElements.current[3] = el)}
           >
             <ProjectCard
               imgPath={event2}
@@ -140,7 +140,7 @@ function Projects() {
           </Col>
           <div
             className="fade-in-element q_a fade-in"
-            ref={(el) => (fadeInElements.current[3] = el)}
+            ref={(el) => (fadeInElements.current[4] = el)}
           >
             <h1 className="project-heading">
               F <strong className="purple">A </strong>Q

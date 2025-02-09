@@ -73,7 +73,7 @@ function Projects() {
               swalText="This event offers basics of Cloud Computing, Real world application with AWS and Interactive quiz. Limited spots available!"
               status="yes"
               reglink = "https://docs.google.com/forms/d/e/1FAIpQLScnxZ92G7fzX7Z40p1Set8dOGaTUpQKIf8cRg9dt49v4wy2GA/viewform"
-              open = true
+              open = "true"
             />
           </Col>
          </Row>

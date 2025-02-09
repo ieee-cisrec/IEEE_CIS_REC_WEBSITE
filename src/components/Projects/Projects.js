@@ -52,14 +52,33 @@ function Projects() {
         </p>
         <br></br>
         <br></br>
-        {/* <h1 className="project-heading">
-          Upcoming <strong className="purple">Events</strong>
-        </h1> */}
-
         <h1 className="project-heading">
-          Milestone <strong className="purple">Events</strong>
+          Upcoming <strong className="purple">Events</strong>
         </h1>
+            
+         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col
+            md={4}
+            className="project-card fade-in"
+            ref={(el) => (fadeInElements.current[0] = el)}
+          >
+            <ProjectCard
+              imgPath={event1}
+              isBlog={false}
+              title="Cloud Computing Workshop"
+              description="IEEE CIS REC's Cloud Computing Workshop: Workshop on Feb 12, 2025 (3-5 PM) for a hands-on Cloud Computing Workshop!
+                  Learn the basics of Cloud Computing, Real world application with AWS, Interactive quiz and Discover how it can supercharge your career!.
+                  Register now (limited spots) and receive an e-certificate. Venue: Purple Hall"
+              swalTitle="Workshop Details"
+              swalText="This event offers basics of Cloud Computing, Real world application with AWS and Interactive quiz. Limited spots available!"
+              status="yes"
+              reglink = "https://docs.google.com/forms/d/e/1FAIpQLScnxZ92G7fzX7Z40p1Set8dOGaTUpQKIf8cRg9dt49v4wy2GA/viewform"
+              open = true
+            />
+          </Col>
+    <br>
 
+            
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col
             md={4}

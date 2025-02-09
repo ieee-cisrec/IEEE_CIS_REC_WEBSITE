@@ -9,7 +9,7 @@ function ProjectCards(props) {
   const handleButtonClick = () => {
     Swal.fire({
       title: props.swalTitle || "Details",
-      text: props.swalText || "Here are the details about the Event.",
+      html: props.swalText || "Here are the details about the Event.",
       confirmButtonText: "Okay",
       backdrop: true, // Optional: Enable backdrop to prevent interaction outside the popup
     });

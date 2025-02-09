@@ -78,7 +78,10 @@ function Projects() {
           </Col>
          </Row>
     <br></br>
-            
+
+        <h1 className="project-heading">
+          Milestone <strong className="purple">Events</strong>
+        </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col
             md={4}

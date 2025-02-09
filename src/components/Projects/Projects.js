@@ -76,6 +76,7 @@ function Projects() {
               open = true
             />
           </Col>
+         </Row>
     <br>
 
             

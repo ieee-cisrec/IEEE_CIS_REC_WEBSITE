@@ -13,6 +13,7 @@ import event1 from "./Assets/event1.jpeg";
 import event2 from "./Assets/event2.png";
 import event3 from "./Assets/event3.jpg";
 import event4 from "./Assets/cloudspace.jpg";
+import event5 from "./Assets/operation_shadow.png";
 
 function Projects() {
   const fadeInElements = useRef([]);
@@ -65,17 +66,18 @@ function Projects() {
             ref={(el) => (fadeInElements.current[0] = el)}
           >
             <ProjectCard
-              imgPath={event4}
+              imgPath={event5}
               isBlog={false}
-              title="CLOUDSCAPE"
-              description="IEEE CIS REC's CloudScape: Workshop on Feb 12, 2025 (3-5 PM) for a hands-on Cloud Computing Workshop!
-                  Learn the basics of Cloud Computing, Real world application with AWS, Interactive quiz and Discover how it can supercharge your career!.
+              title="OPERATION SHADOW"
+              description="Get ready for Operation Shadow: Unmasking Cyber Threats!
+                  Join us for an exclusive cybersecurity workshop where we’ll expose real-world cyber threats and arm you with the knowledge to stay protected 
+                  and explore a simulated cyber attack demonstration, deep dive into C2 servers and trojans, Learn essential defense strategies!
                   Register now (limited spots) and receive an e-certificate. Venue: Purple Hall"
               swalTitle="Workshop Details"
-              swalText="<b>Event: </b>CloudScape<br> <b>Date: </b> Feb 12, 2025 <br> <b>Venue: </b>Purple Hall <br>"
+              swalText="<b>Event: </b>Operation Shadow<br> <b>Date: </b> Feb 15, 2025 <br> <b>Venue: </b>Purple Hall <br>"
               status="yes"
-              reglink = "https://docs.google.com/forms/d/e/1FAIpQLScnxZ92G7fzX7Z40p1Set8dOGaTUpQKIf8cRg9dt49v4wy2GA/viewform"
-              close = "true"
+              reglink = "https://docs.google.com/forms/d/e/1FAIpQLSemQTUjf-UcwwBjG4KYhYfTpoXY9j7XspaO6ESb_pLQIicNCg/viewform?usp=sharing"
+              open = "true"
             />
           </Col>
          </Row>
@@ -85,10 +87,30 @@ function Projects() {
           Milestone <strong className="purple">Events</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          // Cloud Scape
           <Col
             md={4}
             className="project-card fade-in"
             ref={(el) => (fadeInElements.current[1] = el)}
+          >
+            <ProjectCard
+              imgPath={event4}
+              isBlog={false}
+              title="CLOUDSCAPE"
+              description="IEEE CIS REC's CloudScape: Workshop on Feb 12, 2025 (3-5 PM) for a hands-on Cloud Computing Workshop!
+                  Learn the basics of Cloud Computing, Real world application with AWS, Interactive quiz and Discover how it can supercharge your career!."
+              swalTitle="Workshop Details"
+              swalText="Cloud Space offers a Fundamentals of Cloud Computing, Real world application with AWS and Interactive quiz!"
+              status="yes"
+            />
+          </Col>
+
+          // Envision
+          <Col
+            md={4}
+            className="project-card fade-in"
+            ref={(el) => (fadeInElements.current[2] = el)}
           >
             <ProjectCard
               imgPath={event1}
@@ -103,10 +125,11 @@ function Projects() {
             />
           </Col>
 
+          // Hack Hive
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[2] = el)}
+            ref={(el) => (fadeInElements.current[3] = el)}
           >
             <ProjectCard
               imgPath={event3}
@@ -123,10 +146,11 @@ function Projects() {
             />
           </Col>
 
+          // Awareness Program
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[3] = el)}
+            ref={(el) => (fadeInElements.current[4] = el)}
           >
             <ProjectCard
               imgPath={event2}
@@ -145,7 +169,7 @@ function Projects() {
           </Col>
           <div
             className="fade-in-element q_a fade-in"
-            ref={(el) => (fadeInElements.current[4] = el)}
+            ref={(el) => (fadeInElements.current[5] = el)}
           >
             <h1 className="project-heading">
               F <strong className="purple">A </strong>Q

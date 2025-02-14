@@ -88,7 +88,6 @@ function Projects() {
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          // Cloud Scape
           <Col
             md={4}
             className="project-card fade-in"
@@ -106,7 +105,6 @@ function Projects() {
             />
           </Col>
 
-          // Envision
           <Col
             md={4}
             className="project-card fade-in"
@@ -125,7 +123,6 @@ function Projects() {
             />
           </Col>
 
-          // Hack Hive
           <Col
             md={4}
             className="project-card fade-in"
@@ -146,7 +143,6 @@ function Projects() {
             />
           </Col>
 
-          // Awareness Program
           <Col
             md={4}
             className="project-card fade-in"

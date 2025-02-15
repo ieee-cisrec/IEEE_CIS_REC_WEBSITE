@@ -77,7 +77,7 @@ function Projects() {
               swalText="<b>Event: </b>Operation Shadow<br> <b>Date: </b> Feb 15, 2025 <br> <b>Venue: </b>Purple Hall <br>"
               status="yes"
               reglink = "https://docs.google.com/forms/d/e/1FAIpQLSemQTUjf-UcwwBjG4KYhYfTpoXY9j7XspaO6ESb_pLQIicNCg/viewform?usp=sharing"
-              open = "true"
+              close = "true"
             />
           </Col>
          </Row>

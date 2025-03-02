@@ -61,7 +61,8 @@ function Projects() {
           Milestone <strong className="purple">Events</strong>
         </h1>
 
-<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col
             md={4}
             className="project-card fade-in"
@@ -80,11 +81,8 @@ function Projects() {
               status="yes"
             />
           </Col>
-         </Row>
 
-
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
+                
           <Col
             md={4}
             className="project-card fade-in"

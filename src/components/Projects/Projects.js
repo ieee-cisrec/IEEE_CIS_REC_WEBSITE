@@ -14,6 +14,7 @@ import event2 from "./Assets/event2.png";
 import event3 from "./Assets/event3.jpg";
 import event4 from "./Assets/cloudspace.jpg";
 import event5 from "./Assets/operation_shadow.png";
+import event6 from "./Assets/rewired.png";
 
 function Projects() {
   const fadeInElements = useRef([]);
@@ -55,7 +56,38 @@ function Projects() {
         </p>
         <br></br>
         <br></br>
-      
+
+        <h1 className="project-heading">
+          Upcoming <strong className="purple">Events</strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col
+            md={4}
+            className="project-card fade-in"
+            ref={(el) => (fadeInElements.current[0] = el)}
+          >
+            <ProjectCard
+              imgPath={event6}
+              isBlog={false}
+              title="REWIRED"
+              description="Ready to jump into the exciting world of IoT? Join us on an exciting  online session where we’ll 
+                  unravel the fundamentals of IoT and guide you through intriguing IOT concepts in 2-day IOT Skill Training. Explore real-world IoT applications, 
+                  Understand the integral fundamentals of IOT and Discover career opportunities in the growing IoT field.
+                  A crucial  screening session where you'll learn the  IoT basics  from experts.
+                  (Stand a chance to be shortlisted from the online session, for an exciting offline event where you get to build an interesting real world IOT project)   
+                  Register now(limited spots)"
+              swalTitle="Workshop Details"
+              swalText="<b>Event: </b>REWIRED<br> <b>Phase 1 (Online): </b> March 03, 2025 <br> <b>Phase 2 (Offline): </b> March 06, 2025<br>"
+              status="yes"
+              reglink = "https://forms.gle/aptmENL6ZzEVKURJ7"
+              open = "true"
+            />
+          </Col>
+        </Row>
+          
+    <br></br>
+    <br></br>
 
         <h1 className="project-heading">
           Milestone <strong className="purple">Events</strong>
@@ -66,7 +98,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[0] = el)}
+            ref={(el) => (fadeInElements.current[1] = el)}
           >
             <ProjectCard
               imgPath={event5}
@@ -86,7 +118,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[1] = el)}
+            ref={(el) => (fadeInElements.current[2] = el)}
           >
             <ProjectCard
               imgPath={event4}
@@ -103,7 +135,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[2] = el)}
+            ref={(el) => (fadeInElements.current[3] = el)}
           >
             <ProjectCard
               imgPath={event1}
@@ -121,7 +153,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[3] = el)}
+            ref={(el) => (fadeInElements.current[4] = el)}
           >
             <ProjectCard
               imgPath={event3}
@@ -141,7 +173,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[4] = el)}
+            ref={(el) => (fadeInElements.current[5] = el)}
           >
             <ProjectCard
               imgPath={event2}
@@ -160,7 +192,7 @@ function Projects() {
           </Col>
           <div
             className="fade-in-element q_a fade-in"
-            ref={(el) => (fadeInElements.current[5] = el)}
+            ref={(el) => (fadeInElements.current[6] = el)}
           >
             <h1 className="project-heading">
               F <strong className="purple">A </strong>Q

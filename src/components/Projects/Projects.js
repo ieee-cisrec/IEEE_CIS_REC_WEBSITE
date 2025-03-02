@@ -72,10 +72,10 @@ function Projects() {
               isBlog={false}
               title="REWIRED"
               description="Ready to jump into the exciting world of IoT? Join us on an exciting  online session where we’ll 
-                  unravel the fundamentals of IoT and guide you through intriguing IOT concepts in 2-day IOT Skill Training. Explore real-world IoT applications, 
-                  Understand the integral fundamentals of IOT and Discover career opportunities in the growing IoT field.
-                  A crucial  screening session where you'll learn the  IoT basics  from experts.
-                  (Stand a chance to be shortlisted from the online session, for an exciting offline event where you get to build an interesting real world IOT project)   
+                  unravel the fundamentals and guide you through intriguing IOT concepts in 2-day Skill Training. Explore real-world applications, 
+                  Understand the integral fundamentals and Discover career opportunities in the growing IoT field.
+                  A crucial  screening session where you'll learn the basics  from experts.
+                  (Stand a chance to be shortlisted from the online session, for an exciting offline event where you get to build an interesting real world project)   
                   Register now(limited spots)"
               swalTitle="Workshop Details"
               swalText="<b>Event: </b>REWIRED<br> <b>Phase 1 (Online): </b> March 03, 2025 <br> <b>Phase 2 (Offline): </b> March 06, 2025<br>"

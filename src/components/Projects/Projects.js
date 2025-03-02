@@ -55,11 +55,13 @@ function Projects() {
         </p>
         <br></br>
         <br></br>
+      
+
         <h1 className="project-heading">
-          Upcoming <strong className="purple">Events</strong>
+          Milestone <strong className="purple">Events</strong>
         </h1>
-            
-         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col
             md={4}
             className="project-card fade-in"
@@ -76,16 +78,11 @@ function Projects() {
               swalTitle="Workshop Details"
               swalText="<b>Event: </b>Operation Shadow<br> <b>Date: </b> Feb 15, 2025 <br> <b>Venue: </b>Purple Hall <br>"
               status="yes"
-              reglink = "https://docs.google.com/forms/d/e/1FAIpQLSemQTUjf-UcwwBjG4KYhYfTpoXY9j7XspaO6ESb_pLQIicNCg/viewform?usp=sharing"
-              close = "true"
             />
           </Col>
          </Row>
-    <br></br>
 
-        <h1 className="project-heading">
-          Milestone <strong className="purple">Events</strong>
-        </h1>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
           <Col

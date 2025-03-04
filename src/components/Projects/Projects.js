@@ -81,7 +81,7 @@ function Projects() {
               swalText="<b>Event: </b>REWIRED<br> <b>Phase 1 (Online): </b> March 03, 2025 <br> <b>Phase 2 (Offline): </b> March 06, 2025<br>"
               status="yes"
               reglink = "https://forms.gle/aptmENL6ZzEVKURJ7"
-              open = "true"
+              close = "true"
             />
           </Col>
         </Row>

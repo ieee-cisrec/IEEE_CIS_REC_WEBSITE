@@ -54,14 +54,7 @@ function Projects() {
           people, our events have something for everyone. Explore our current
           and upcoming events below to get involved!
         </p>
-        // <br></br>
-        // <br></br>
-
-        // <h1 className="project-heading">
-        //   Upcoming <strong className="purple">Events</strong>
-        // </h1>
-        // <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        </Row>
+    
           
     <br></br>
     <br></br>

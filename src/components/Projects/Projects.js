@@ -191,11 +191,10 @@ function Projects() {
             <Accordion defaultActiveKey="4" className="bg-transparent">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  What is the Outcome of Envision?
+                  What is IEEE Computational Intelligence Society?
                 </Accordion.Header>
                 <Accordion.Body>
-                  You will have hands on experience and basic knowledge about
-                  Computer Vision.
+                  The IEEE Computational Intelligence Society (CIS) is a dynamic community of students passionate about artificial intelligence, machine learning, and intelligent systems.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

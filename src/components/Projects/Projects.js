@@ -54,15 +54,25 @@ function Projects() {
           people, our events have something for everyone. Explore our current
           and upcoming events below to get involved!
         </p>
-        <br></br>
-        <br></br>
+        // <br></br>
+        // <br></br>
+
+        // <h1 className="project-heading">
+        //   Upcoming <strong className="purple">Events</strong>
+        // </h1>
+        // <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        </Row>
+          
+    <br></br>
+    <br></br>
 
         <h1 className="project-heading">
-          Upcoming <strong className="purple">Events</strong>
+          Milestone <strong className="purple">Events</strong>
         </h1>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          <Col
+           <Col
             md={4}
             className="project-card fade-in"
             ref={(el) => (fadeInElements.current[0] = el)}
@@ -80,21 +90,9 @@ function Projects() {
               swalTitle="Workshop Details"
               swalText="<b>Event: </b>REWIRED<br> <b>Phase 1 (Online): </b> March 03, 2025 <br> <b>Phase 2 (Offline): </b> March 06, 2025<br>"
               status="yes"
-              reglink = "https://forms.gle/aptmENL6ZzEVKURJ7"
-              close = "true"
             />
           </Col>
-        </Row>
-          
-    <br></br>
-    <br></br>
-
-        <h1 className="project-heading">
-          Milestone <strong className="purple">Events</strong>
-        </h1>
-
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
+                
           <Col
             md={4}
             className="project-card fade-in"

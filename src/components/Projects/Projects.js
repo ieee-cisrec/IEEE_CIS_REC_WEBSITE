@@ -15,6 +15,7 @@ import event3 from "./Assets/event3.jpg";
 import event4 from "./Assets/cloudspace.jpg";
 import event5 from "./Assets/operation_shadow.png";
 import event6 from "./Assets/rewired.png";
+import event7 from "./Assets/datavizzx.jpg";
 
 function Projects() {
   const fadeInElements = useRef([]);
@@ -54,6 +55,35 @@ function Projects() {
           people, our events have something for everyone. Explore our current
           and upcoming events below to get involved!
         </p>
+        
+        <br></br>
+        <br></br>
+        <h1 className="project-heading">
+        Upcoming <strong className="purple">Events</strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+             <Col
+            md={4}
+            className="project-card fade-in"
+            ref={(el) => (fadeInElements.current[0] = el)}
+          >
+            <ProjectCard
+              imgPath={event7}
+              isBlog={false}
+              title="DATAVIZZX"
+              description="Ready to unlock the power of data? Join us for DataVizzX,
+                an insightful online Power BI Workshop designed to give you a strong foundation in data analytics and visualization. Go deeper with DAX,
+                access R-powered insights via video guides, build stunning dashboards, and learn the logic behind the visuals. Date: April 21, 2025
+                Register now and take the first step towards becoming a Power BI expert! "
+              swalTitle="Workshop Details"
+              swalText="<b>Event: </b>DataVizzX – Power BI Workshop <br> <b>Date </b> April 21, 2025 <br> <b> Time: </b>10:30 AM – 12:00 PM <br>"
+              status="yes"
+              open = true
+              reglink = "https://docs.google.com/forms/d/e/1FAIpQLSd4zn6iLa2ncq-ts6s9Os5slI1qifbdApALUl0K8tlO1eR9PQ/viewform"
+            />
+          </Col>
+                
+        </Row>
     
           
     <br></br>
@@ -68,7 +98,7 @@ function Projects() {
            <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[0] = el)}
+            ref={(el) => (fadeInElements.current[1] = el)}
           >
             <ProjectCard
               imgPath={event6}
@@ -89,7 +119,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[1] = el)}
+            ref={(el) => (fadeInElements.current[2] = el)}
           >
             <ProjectCard
               imgPath={event5}
@@ -109,7 +139,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[2] = el)}
+            ref={(el) => (fadeInElements.current[3] = el)}
           >
             <ProjectCard
               imgPath={event4}
@@ -126,7 +156,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[3] = el)}
+            ref={(el) => (fadeInElements.current[4] = el)}
           >
             <ProjectCard
               imgPath={event1}
@@ -144,7 +174,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[4] = el)}
+            ref={(el) => (fadeInElements.current[5] = el)}
           >
             <ProjectCard
               imgPath={event3}
@@ -164,7 +194,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[5] = el)}
+            ref={(el) => (fadeInElements.current[6] = el)}
           >
             <ProjectCard
               imgPath={event2}
@@ -183,7 +213,7 @@ function Projects() {
           </Col>
           <div
             className="fade-in-element q_a fade-in"
-            ref={(el) => (fadeInElements.current[6] = el)}
+            ref={(el) => (fadeInElements.current[7] = el)}
           >
             <h1 className="project-heading">
               F <strong className="purple">A </strong>Q

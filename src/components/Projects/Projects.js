@@ -76,7 +76,7 @@ function Projects() {
                 access R-powered insights via video guides, build stunning dashboards, and learn the logic behind the visuals. Date: April 21, 2025
                 Register now and take the first step towards becoming a Power BI expert! "
               swalTitle="Workshop Details"
-              swalText="<b>Event: </b>DataVizzX – Power BI Workshop <br> <b>Date </b> April 21, 2025 <br> <b> Time: </b>10:30 AM – 12:00 PM <br>"
+              swalText="<b>Event: </b>DataVizzX <br> <b>Date </b> April 21, 2025 <br> <b> Time: </b>10:30 AM – 12:00 PM <br>"
               status="yes"
               open = "true"
               reglink = "https://docs.google.com/forms/d/e/1FAIpQLSd4zn6iLa2ncq-ts6s9Os5slI1qifbdApALUl0K8tlO1eR9PQ/viewform"

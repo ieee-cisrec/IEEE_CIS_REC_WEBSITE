@@ -79,7 +79,7 @@ function Projects() {
                 lemmatization, and the evolution from classical NLP to transformer models. You will dive into web scraping with Wikipedia,
                 construct a GPT-2 style model, and follow a complete text generation pipeline with live coding."
               swalTitle="Workshop Details"
-              swalText="<b>Event: </b>LLM TUNED <br> <b>Date </b> May 5 & 6, 2025 <br> <b> Time: </b>7:00 PM – 8:45 PM <br><b>Platform: </b>Google Meet"
+              swalText="<b>Event: </b>LLM TUNED <br> <b>Date </b> May 5 & 6, 2025 <br> <b> Time: </b>7:45 PM – 9:00 PM <br><b>Platform: </b>Google Meet"
               status="yes"
               open = "true"
               reglink = "https://docs.google.com/forms/d/e/1FAIpQLSfIAW9UgUxRDD0LWYF1QUr4VkWruQGVTP7E0EJAsUyK6cfyXw/viewform?usp=header"

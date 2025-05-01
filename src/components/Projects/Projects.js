@@ -16,6 +16,7 @@ import event4 from "./Assets/cloudspace.jpg";
 import event5 from "./Assets/operation_shadow.png";
 import event6 from "./Assets/rewired.png";
 import event7 from "./Assets/datavizzx.jpg";
+import event8 from "./Assets/llm_tuned.png";
 
 function Projects() {
   const fadeInElements = useRef([]);
@@ -68,18 +69,20 @@ function Projects() {
             ref={(el) => (fadeInElements.current[0] = el)}
           >
             <ProjectCard
-              imgPath={event7}
+              imgPath={event8}
               isBlog={false}
-              title="DATAVIZZX"
-              description="Ready to unlock the power of data? Join us for DataVizzX,
-                an insightful online Power BI Workshop designed to give you a strong foundation in data analytics and visualization. Go deeper with DAX,
-                access R-powered insights via video guides, build stunning dashboards, and learn the logic behind the visuals. Date: April 21, 2025
-                Register now and take the first step towards becoming a Power BI expert! "
+              title="LLM TUNED"
+              description="Ready to explore the fascinating world of Artificial Intelligence? Join us for ZERO GPT, 
+                an interactive online workshop where you'll learn to build a GPT-style language model from the ground 
+                up—no prior experience with large language models required! This hands-on session will guide you through
+                the foundations of Natural Language Processing (NLP), covering key concepts like tokenization, stemming, 
+                lemmatization, and the evolution from classical NLP to transformer models. You will dive into web scraping with Wikipedia,
+                construct a GPT-2 style model, and follow a complete text generation pipeline with live coding."
               swalTitle="Workshop Details"
-              swalText="<b>Event: </b>DataVizzX <br> <b>Date </b> April 21, 2025 <br> <b> Time: </b>10:30 AM – 12:00 PM <br>"
+              swalText="<b>Event: </b>LLM TUNED <br> <b>Date </b> May 5 & 6, 2025 <br> <b> Time: </b>7:00 PM – 8:45 PM <br><b>Platform: </b>Google Meet"
               status="yes"
-              close = "true"
-              reglink = "https://docs.google.com/forms/d/e/1FAIpQLSd4zn6iLa2ncq-ts6s9Os5slI1qifbdApALUl0K8tlO1eR9PQ/viewform"
+              open = "true"
+              reglink = "https://docs.google.com/forms/d/e/1FAIpQLSfIAW9UgUxRDD0LWYF1QUr4VkWruQGVTP7E0EJAsUyK6cfyXw/viewform?usp=header"
             />
           </Col>
                 
@@ -94,11 +97,30 @@ function Projects() {
         </h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                
+        <Col
+            md={4}
+            className="project-card fade-in"
+            ref={(el) => (fadeInElements.current[1] = el)}
+          >
+            <ProjectCard
+              imgPath={event7}
+              isBlog={false}
+              title="DATAVIZZX"
+              description="Ready to unlock the power of data? Join us for DataVizzX,
+                an insightful online Power BI Workshop designed to give you a strong foundation in data analytics and visualization. Go deeper with DAX,
+                access R-powered insights via video guides, build stunning dashboards, and learn the logic behind the visuals. Date: April 21, 2025
+                Register now and take the first step towards becoming a Power BI expert! "
+              swalTitle="Workshop Details"
+              swalText="<b>Event: </b>DataVizzX <br> <b>Date </b> April 21, 2025 <br> <b> Time: </b>10:30 AM – 12:00 PM <br>"
+              status="yes"
+            />
+          </Col>
 
            <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[1] = el)}
+            ref={(el) => (fadeInElements.current[2] = el)}
           >
             <ProjectCard
               imgPath={event6}
@@ -119,7 +141,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[2] = el)}
+            ref={(el) => (fadeInElements.current[3] = el)}
           >
             <ProjectCard
               imgPath={event5}
@@ -139,7 +161,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[3] = el)}
+            ref={(el) => (fadeInElements.current[4] = el)}
           >
             <ProjectCard
               imgPath={event4}
@@ -156,7 +178,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[4] = el)}
+            ref={(el) => (fadeInElements.current[5] = el)}
           >
             <ProjectCard
               imgPath={event1}
@@ -174,7 +196,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[5] = el)}
+            ref={(el) => (fadeInElements.current[6] = el)}
           >
             <ProjectCard
               imgPath={event3}
@@ -194,7 +216,7 @@ function Projects() {
           <Col
             md={4}
             className="project-card fade-in"
-            ref={(el) => (fadeInElements.current[6] = el)}
+            ref={(el) => (fadeInElements.current[7] = el)}
           >
             <ProjectCard
               imgPath={event2}
@@ -213,7 +235,7 @@ function Projects() {
           </Col>
           <div
             className="fade-in-element q_a fade-in"
-            ref={(el) => (fadeInElements.current[7] = el)}
+            ref={(el) => (fadeInElements.current[8] = el)}
           >
             <h1 className="project-heading">
               F <strong className="purple">A </strong>Q

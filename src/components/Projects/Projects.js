@@ -82,7 +82,6 @@ function Projects() {
               swalText="<b>Event: </b>LLM TUNED <br> <b>Date </b> May 5 & 6, 2025 <br> <b> Time: </b>7:45 PM – 9:00 PM <br><b>Platform: </b>Google Meet"
               status="yes"
               close = "true"
-              
             />
           </Col>
                 

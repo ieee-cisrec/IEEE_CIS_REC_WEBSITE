@@ -81,7 +81,7 @@ function Projects() {
               swalTitle="Workshop Details"
               swalText="<b>Event: </b>LLM TUNED <br> <b>Date </b> May 5 & 6, 2025 <br> <b> Time: </b>7:45 PM – 9:00 PM <br><b>Platform: </b>Google Meet"
               status="yes"
-              open = "true"
+              close = "true"
               reglink = "https://docs.google.com/forms/d/e/1FAIpQLSfIAW9UgUxRDD0LWYF1QUr4VkWruQGVTP7E0EJAsUyK6cfyXw/viewform?usp=header"
             />
           </Col>
